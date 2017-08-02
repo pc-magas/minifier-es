@@ -1,4 +1,4 @@
-# pcmagas:minifier-js
+# pcmagas:minifier-es
 
 A fork of `abernix:minifier-js` providing the non proper hotfix seen in:
 https://forums.meteor.com/t/new-react-devtools-check-if-your-production-build-is-really-in-production-mode/36199/10
