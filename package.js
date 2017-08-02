@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'abernix:minifier-js',
+  name: 'pcmagas:minifier-es',
   summary: "JavaScript minifier",
-  version: "2.1.0"
+  version: "2017.8.3_6"
 });
 
 Npm.depends({

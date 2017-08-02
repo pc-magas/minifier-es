@@ -3,13 +3,15 @@ var uglify;
 meteorJsMinify = function (source) {
   var result = {};
   uglify = uglify || Npm.require("uglify-es");
+  
+  source = source.replace(/process\.env\.NODE_ENV/g, '"production"');
 
   try {
     var uglifyResult = uglify.minify(source, {
       compress: {
         drop_debugger: false,
-        unused: false,
-        dead_code: false
+        unused: true,
+        dead_code: false,
       }
     });
 
